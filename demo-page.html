@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="demo-page.css">
+</head>
+
+<body>
+    <div class="playground-container">
+        <div class="container-header navbars">
+            <h1 class="heading">Flex Box Playground</h1>
+        </div>
+        <div class="container-body">
+            <div class="inner-container">
+                <div class="flex-items one"></div>
+                <div class="flex-items two"></div>
+                <div class="flex-items three"></div>
+                <div class="flex-items four"></div>
+                <div class="flex-items five"></div>
+            </div>
+
+        </div>
+        <div class="container-footer navbars">
+            <div class="dropdowns direction-container">
+                <label for="flex-direction">Flex Direction:</label>
+                <select name="wrap" id="flex-direction">
+                    <option value="row">Row</option>
+                    <option value="column">Column</option>
+                </select>
+            </div>
+            <div class="dropdowns justify-content-container">
+                <label for="justify-content">Justify Content:</label>
+                <select name="dropdowns" id="justify-content">
+                    <option value="flex-start">Flex Start</option>
+                    <option value="flex-end">Flex End</option>
+                    <option value="center">Center</option>
+                    <option value="space-between">Space Between</option>
+                    <option value="space-around">Space Around</option>
+                    <option value="flex-start">Space Evenly</option>
+                    <option value="flex-start">Initial</option>
+                    <option value="flex-start">Inherit</option>
+                </select>
+            </div>
+            <div class="dropdowns wrap-container">
+                <label for="flex-wrap">Flex Wrap:</label>
+                <select name="wrap" id="flex-wrap">
+                    <option value="no-wrap">No Wrap</option>
+                    <option value="wrap">Wrap</option>
+                    <option value="wrap-reverse">Wrap Reverse</option>
+                </select>
+            </div>
+            <div class="dropdowns align-items-container">
+                <label for="align-items">Align items:</label>
+                <select name="justify" id="align-items">
+                    <option value="flex-start">Flex Start</option>
+                    <option value="flex-end">Flex End</option>
+                    <option value="center">Center</option>
+                    <option value="stretch">Stretch</option>
+                    <option value="baseline">Baseline</option>
+                </select>
+            </div>
+            <div class="dropdowns">
+                <label for="align-content">Align Content:</label>
+                <select name="align-content" id="align-content">
+                    <option value="flex-start">Flex Start</option>
+                    <option value="flex-end">Flex End</option>
+                    <option value="center">Center</option>
+                    <option value="Space-between">Space Between</option>
+                    <option value="space-around">Space Around</option>
+                    <option value="flex-start">Space Evenly</option>
+                    <option value="flex-start">Initial</option>
+                    <option value="flex-start">Inherit</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="demo-page.js"></script>
+
+</body>
+
+</html>
